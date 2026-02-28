@@ -75,18 +75,17 @@ Optimizer:
 
 | Model | Accuracy | F1-score |
 |--------|----------|----------|
-| Logistic Regression | (insert value) | (insert value) |
-| PyTorch ANN | (insert value) | (insert value) |
+| Logistic Regression | (0.59) | (0.49) |
+| PyTorch ANN | (0.39) | (0.37) |
 
 ---
 
 ## Observations
 
-- TF-IDF features show strong linear separability.
-- Logistic Regression performs competitively.
-- The ANN demonstrates mild overfitting.
-- Class imbalance significantly affects recall for the minority class.
-- Some misclassifications reflect mixed-sentiment reviews or potential label noise.
+- Logistic Regression significantly outperforms the shallow ANN.
+- TF-IDF features exhibit strong linear separability.
+- The neural network underperforms, likely due to overfitting on sparse high-dimensional features.
+- This experiment demonstrates that classical linear models remain strong baselines for sparse NLP tasks.
 
 ---
 
