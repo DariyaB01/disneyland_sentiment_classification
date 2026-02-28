@@ -130,6 +130,15 @@ Run the notebook inside `/notebooks/`.
 
 ---
 
+## Training Curve
+<img width="485" height="352" alt="Снимок экрана 2026-02-28 в 17 31 06" src="https://github.com/user-attachments/assets/dd01fe8a-05a9-4035-840b-514acce9b80f" />
+
+## Reproducibility
+
+Random seed: 42  
+Train/Validation split: 80/20 (stratified)  
+Vectorizer: max_features=10000, min_df=3, ngrams=(1,2)
+
 ## Future Improvements
 
 - Transformer-based models (DistilBERT, RoBERTa)
